@@ -1,7 +1,7 @@
 ---
 - name: hello world
   hosts: all
-  gather_facts: false
+  gather_facts: yes
   tasks:
   
     - name: hello world
