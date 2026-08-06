@@ -11,8 +11,3 @@ controller_templates:
   inventory: Demo Inventory 
   project: Demo Project 
   playbook: hello_world.yml 
-  roles:
-    execute:
-      teams:
-        - Dev1
-        - Dev2
