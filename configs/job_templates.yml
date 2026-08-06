@@ -14,5 +14,5 @@ controller_templates:
   roles:
     execute:
       teams:
-        - myteam1
-        - myteam2
+        - Dev1
+        - Dev2
