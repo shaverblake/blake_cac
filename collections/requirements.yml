@@ -1,11 +1,26 @@
+# requirements.yml
 ---
 collections:
+  # https://github.com/ansible/ansible.platform
   - name: ansible.platform
-    version: ">=2.6.0" # for AAP 2.6 this should be 2.6.0
+    src: git+https://github.com/ansible/ansible.platform.git
+
+
+  # https://github.com/ansible-collections/ansible_hub
   - name: ansible.hub
-    version: ">=1.0.0"
+    src: git+https://github.com/ansible-collections/ansible_hub.git
+
+
+  # https://github.com/ansible/ansible.controller
   - name: ansible.controller
-    version: ">=4.7.0" # for AAP 2.6 this should be 4.7.0
+    src: git+https://github.com/ansible/ansible.controller.git
+
+
+  # https://github.com/ansible/event-driven-ansible (ansible.eda)
   - name: ansible.eda
-    version: ">=2.5.0"
+    src: git+https://github.com/ansible/event-driven-ansible.git
+
+
+  # https://github.com/redhat-cop/infra.aap_configuration
   - name: infra.aap_configuration
+    src: git+https://github.com/redhat-cop/infra.aap_configuration.git
