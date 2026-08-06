@@ -4,5 +4,15 @@ controller_templates:
   job_type: run 
   inventory: Demo Inventory 
   project: Demo Project 
-  playbook: helloworld.yml 
-  
+  playbook: hello_world.yml 
+
+- name: job template 2 with roles
+  job_type: run 
+  inventory: Demo Inventory 
+  project: Demo Project 
+  playbook: hello_world.yml 
+  roles:
+    execute:
+      teams:
+        - myteam1
+        - myteam2
