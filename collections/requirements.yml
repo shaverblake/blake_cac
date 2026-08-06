@@ -13,9 +13,7 @@ collections:
 
 
   # https://github.com/ansible/ansible.controller
-  - name: https://github.com/ansible/ansible.controller.git
-    type: git 
-
+  - name: ansible.controller
 
   # https://github.com/ansible/event-driven-ansible (ansible.eda)
   - name: https://github.com/ansible/event-driven-ansible.git
