@@ -1,0 +1,8 @@
+---
+controller_templates:
+- name: job template 1 no roles
+  job_type: run 
+  inventory: Demo Inventory 
+  project: Demo Project 
+  playbook: helloworld.yml 
+  
