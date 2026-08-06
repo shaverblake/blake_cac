@@ -8,24 +8,20 @@ collections:
 
 
   # https://github.com/ansible-collections/ansible_hub
-  - name: ansible.hub
-    src: https://github.com/ansible-collections/ansible_hub.git
+  - name: https://github.com/ansible-collections/ansible_hub.git
     type: git 
 
 
   # https://github.com/ansible/ansible.controller
-  - name: ansible.controller
-    src: https://github.com/ansible/ansible.controller.git
+  - name: https://github.com/ansible/ansible.controller.git
     type: git 
 
 
   # https://github.com/ansible/event-driven-ansible (ansible.eda)
-  - name: ansible.eda
-    src: https://github.com/ansible/event-driven-ansible.git
+  - name: https://github.com/ansible/event-driven-ansible.git
     type: git 
 
 
   # https://github.com/redhat-cop/infra.aap_configuration
-  - name: infra.aap_configuration
-    src: https://github.com/redhat-cop/infra.aap_configuration.git
+  - name: https://github.com/redhat-cop/infra.aap_configuration.git
     type: git 
