@@ -1,0 +1,6 @@
+---
+# Connection details
+aap_hostname: https://sandbox-aap-rh-ee-blshaver-dev.apps.rm3.7wse.p1.openshiftapps.com
+aap_username: mUreuUWzoNrt1WvocX8HAKnwteBBOELf
+aap_password: your-secure-password
+aap_validate_certs: false  # Set to true in production
