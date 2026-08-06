@@ -2,9 +2,9 @@
 ---
 collections:
   # https://github.com/ansible/ansible.platform
-  - name: ansible.platform
+  - name: https://github.com/ansible/ansible.platform.git
     type: git 
-    src: https://github.com/ansible/ansible.platform.git
+    version: devel
 
 
   # https://github.com/ansible-collections/ansible_hub
